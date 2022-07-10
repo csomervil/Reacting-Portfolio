@@ -6,9 +6,10 @@ export default function Footer() {
         <div>
         <h1>Foot</h1>
         <p>
-            foot
+            <a href="https://github.com/csomervil" target="_blank" rel="noreferrer">GitHub</a>, I do not have any other profiles at the moment.
         </p>
         </div>
+        
     </footer>
   );
 }
