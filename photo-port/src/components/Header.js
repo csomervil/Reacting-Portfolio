@@ -5,7 +5,7 @@ export default function header() {
     <div>
       <h1>Header</h1>
       <p>
-        Header Content
+        Carson Somerville's Profile
       </p>
     </div>
   );

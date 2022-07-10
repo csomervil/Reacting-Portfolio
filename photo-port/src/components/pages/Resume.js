@@ -1,7 +1,9 @@
 import React from 'react';
 import resumeLink from '../../assets/resume.txt';
+document.body.style = 'background: grey;';
 export default function Resume() {
   return (
+    <body>
     <div>
       <h1>Resume</h1>
       <p>
@@ -25,5 +27,6 @@ export default function Resume() {
       </li>
       </p>
     </div>
+    </body>
   );
 }

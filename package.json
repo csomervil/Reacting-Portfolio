@@ -1,0 +1,10 @@
+{
+  "homepage": "http://csomervil.github.io/photo-port",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
