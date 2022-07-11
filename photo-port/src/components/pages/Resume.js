@@ -8,7 +8,7 @@ export default function Resume() {
     <div style={divStyle}>
       <h1>Resume</h1>
       <p>
-      <a href={resumeLink} download>
+      <a style={divStyle} href={resumeLink} download>
         Link to downloadable resume:
       </a>
       </p>
