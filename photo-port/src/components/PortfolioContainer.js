@@ -6,7 +6,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Footer from './Footer';
 import Header from './Header';
-
+const divStyle = { color: '#ADACB5' };
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
   const renderPage = () => {
@@ -25,7 +25,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div style={divStyle}>
       <Header></Header>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}

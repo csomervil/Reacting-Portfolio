@@ -1,10 +1,11 @@
 import React from 'react';
 import resumeLink from '../../assets/resume.txt';
-document.body.style = 'background: grey;';
+document.body.style = 'background: #2D3142;';
+const divStyle = { color: '#B0D7FF'};
 export default function Resume() {
   return (
     <body>
-    <div>
+    <div style={divStyle}>
       <h1>Resume</h1>
       <p>
       <a href={resumeLink} download>

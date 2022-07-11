@@ -1,7 +1,8 @@
 import React from 'react';
+const ulStyle = { background: '#ADACB5' };
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" style={ulStyle}>
       <li className="nav-item">
         <a
           href="#resume"

@@ -1,5 +1,4 @@
 import React from 'react';
-import { createText } from '../../utils/helpers';
 export default function Contact() {
   return (
     <div>
