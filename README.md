@@ -2,7 +2,7 @@
 
 # Introduction
 
-The reacting portfolio is comprised of multiple sections (header, navigation, and footer). It contains a navigation bar to move to different sections of the homepage. The portfolio was made in React and uses JSX.
+The reacting portfolio is comprised of multiple sections (header, navigation, and footer). It contains a navigation bar to move to different sections of the website. The portfolio was made in React and uses JSX.
 
 # Installation
 
